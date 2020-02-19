@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ES6 Universe</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/site.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <canvas id="canvas" width="400" height="300">
+    </canvas>
+    <!-- Page Content -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 text-center grey-bg">
+                <div class="row">
+                <h1 class="col-md-5">ES6 Universe</h1>
+                <div class="col-md-7">
+                    <div class="form-inline">
+                        <span >
+                            <label class="">Suns</label>
+                            <select id="suns">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="4" selected >4</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                                <option value="10">10</option>
+                                <option value="16">16</option>
+                            </select>
+                            <label class="">Comets</label>
+                            <select id="comets">
+                                <option value="2">2</option>
+                                <option value="4">4</option>
+                                <option value="8">8</option>
+                                <option value="16" selected >16</option>
+                                <option value="20">20</option>
+                                <option value="30">30</option>
+                                <option value="40">40</option>
+                            </select>
+                            <!-- <div class="checkbox hide-small">
+                                <label><input type="checkbox" id="dust" checked /> Show space dust</label>
+                            </div> -->
+                        <button id="regenerate" class="form-controlx btn btn-sm btn-success">Regenerate</button>
+                        </span> 
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bundle.js"></script>
+
+</body>
+
+</html>

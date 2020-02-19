@@ -1,0 +1,24 @@
+.hide-small {
+    display: none!important;
+}
+
+@media (min-width: 992px) {
+    .form-inline {
+        margin-top: 24px;
+    }
+    .hide-small {
+        display: inline!important;
+    }
+
+}
+body {
+    background: #0a0a0a;
+    color: cadetblue;
+    overflow: hidden;
+}
+
+canvas {
+  position:absolute;
+  top: 0; /*[wherever you want it]*/
+  left:0; /*[wherever you want it]*/  
+  }

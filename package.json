@@ -1,0 +1,55 @@
+{
+  "name": "es6-seed",
+  "version": "1.0.0",
+  "description": "seed project for es6 in the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start --reporters clear-screen,dots,coverage",
+    "build": "node ./build.js",
+    "serve": "browser-sync start --server \"public\" --files \"public/js/bundle.js\" --startPath \"index.html\""
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "author": "MFH",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "13.1.1",
+    "watchify": "3.11.1"
+  },
+  "devDependencies": {
+    "babel-polyfill": "6.16.0",
+    "babel-preset-es2015": "6.18.0",
+    "babelify": "7.3.0",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.4",
+    "karma": "^1.1.2",
+    "karma-babel-preprocessor": "6.0.1",
+    "karma-browserify": "5.1.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-clear-screen-reporter": "^1.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-coverage": "^1.1.1",
+    "karma-mocha": "^1.1.1",
+    "mocha": "^3.0.1",
+    "standard": "14.3.1"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "beforeEach",
+      "expect",
+      "test",
+      "afterEach",
+      "jest",
+      "beforeAll",
+      "afterAll",
+      "canvas",
+      "window",
+      "$"
+    ]
+  }
+}
